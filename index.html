@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MD Tanvir Rashid — Electrical &amp; Electronic Engineering</title>
+<meta name="description" content="Portfolio of MD Tanvir Rashid, EEE student building circuits, digital logic, and intelligent systems.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <span class="brand">MTR</span>
+  <nav>
+    <a href="#about">about</a>
+    <a href="#skills">skills</a>
+    <a href="#projects">projects</a>
+    <a href="#contact">contact</a>
+  </nav>
+</header>
+
+<main>
+
+  <section class="hero" id="top">
+    <span class="via" data-label="U1"></span>
+    <p class="eyebrow">EEE student — Independent University, Bangladesh</p>
+    <h1>MD Tanvir<br>Rashid</h1>
+    <p class="hero-copy">First-year electrical and electronic engineering student. I work through circuits and digital logic during the day, and spend my own time figuring out how intelligent systems are built.</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="#projects">See my work</a>
+      <a class="btn btn-ghost" href="#contact">Get in touch</a>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <span class="via" data-label="U2"></span>
+    <h2>About</h2>
+    <div class="about-grid">
+      <p>I started my BSc in Electrical and Electronic Engineering in September 2024. Most of my coursework right now is circuits, digital logic design, and the foundational math that sits underneath both.</p>
+      <p>Outside class, I'm drawn to AI and intelligent systems — not as a buzzword, but as the next layer on top of the hardware and logic I'm already learning. My goal is to eventually build things that are actually useful, not just technically interesting.</p>
+    </div>
+  </section>
+
+  <section class="skills" id="skills">
+    <span class="via" data-label="U3"></span>
+    <h2>Skills</h2>
+    <ul class="pin-grid">
+      <li><span class="pin-num">1</span>Digital logic design</li>
+      <li><span class="pin-num">2</span>Circuit analysis</li>
+      <li><span class="pin-num">3</span>Boolean algebra</li>
+      <li><span class="pin-num">4</span>Number systems</li>
+      <li><span class="pin-num">5</span>Python — learning</li>
+      <li><span class="pin-num">6</span>AI &amp; intelligent systems — learning</li>
+    </ul>
+  </section>
+
+  <section class="projects" id="projects">
+    <span class="via" data-label="U4"></span>
+    <h2>Projects</h2>
+    <p class="section-note">Coursework built as constrained design problems — the constraint is usually the point.</p>
+    <div class="chip-grid">
+
+      <article class="chip">
+        <div class="chip-pins" aria-hidden="true"></div>
+        <span class="chip-id">74HC151</span>
+        <h3>32-input multiplexer</h3>
+        <p>A five-chip, two-stage architecture built entirely from 74HC151 8-to-1 multiplexers — no other IC types allowed.</p>
+      </article>
+
+      <article class="chip">
+        <div class="chip-pins" aria-hidden="true"></div>
+        <span class="chip-id">7486</span>
+        <h3>4-bit odd parity checker</h3>
+        <p>Parity checking across four bits using XOR gates, built on the 7486 quad XOR IC.</p>
+      </article>
+
+      <article class="chip">
+        <div class="chip-pins" aria-hidden="true"></div>
+        <span class="chip-id">NAND</span>
+        <h3>NAND-only logic realization</h3>
+        <p>A Boolean circuit rebuilt using only NAND gates, derived through De Morgan's theorem and bubble-matching.</p>
+      </article>
+
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <span class="via" data-label="U5"></span>
+    <h2>Contact</h2>
+    <p class="section-note">Open to conversations about EEE, AI, or anything in between.</p>
+    <ul class="contact-list">
+      <li><span class="contact-label">Email</span><a href="mailto:tanvirrashid8891@gmail.com">tanvirrashid8891@gmail.com</a></li>
+      <li><span class="contact-label">GitHub</span><a href="https://github.com/md-tanvir-rashid" target="_blank" rel="noopener">github.com/md-tanvir-rashid</a></li>
+      <li><span class="contact-label">LinkedIn</span><a href="https://www.linkedin.com/in/md-tanvir-rashid/" target="_blank" rel="noopener">linkedin.com/in/md-tanvir-rashid</a></li>
+    </ul>
+  </section>
+
+</main>
+
+<footer>
+  <span>MD Tanvir Rashid</span>
+  <span id="year"></span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
